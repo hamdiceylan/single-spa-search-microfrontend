@@ -1,0 +1,7 @@
+{
+  "collectCoverageFrom": ["src/**/*.js"],
+  "modulePathIgnorePatterns": ["/cache", "/dist"],
+  "transform": {
+    "^.+\\.(j|t)sx?$": "babel-jest"
+  }
+}
